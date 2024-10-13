@@ -3,7 +3,7 @@ package hexlet.code.schemas;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class MapSchema extends BaseSchema<Map<String, String>> {
+public final class MapSchema extends BaseSchema<Map<String, String>> {
     public MapSchema() {
         conditions = new LinkedHashMap<>();
     }

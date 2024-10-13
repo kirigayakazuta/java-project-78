@@ -2,7 +2,7 @@ package hexlet.code.schemas;
 
 import java.util.LinkedHashMap;
 
-public class NumberSchema extends BaseSchema<Integer> {
+public final class NumberSchema extends BaseSchema<Integer> {
     public NumberSchema() {
         conditions = new LinkedHashMap<>();
     }
